@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoWit_TestNG_API">
+    <test verbose="2" preserve-order="true" name="Pet CRUD Positive Tests">
+        <classes>
+            <class name="apiTests.pet.Post_Body"/>
+            <class name="apiTests.pet.Put"/>
+            <class name="apiTests.pet.Get_Id"/>
+            <class name="apiTests.pet.Delete"/>
+        </classes>
+    </test>
+</suite>
