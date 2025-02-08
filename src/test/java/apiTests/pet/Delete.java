@@ -42,5 +42,4 @@ public class Delete extends BaseURL {
             System.err.println("Oluşan hata: " + e.getMessage());
         }
     }
-    // Testin Failed olmasına neden olan HttpResponseException try-catch ile handle edildi
 }

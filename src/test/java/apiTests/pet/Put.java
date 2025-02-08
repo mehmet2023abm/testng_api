@@ -98,7 +98,6 @@ public class Put extends BaseURL {
         // status code assertions
         Assert.assertEquals(response.getStatusCode(), 400, "Status code is not 400");
 
-        // HATA : Invalid ID supplied için 400 beklenirken 200 dönüyor
     }
 }
 

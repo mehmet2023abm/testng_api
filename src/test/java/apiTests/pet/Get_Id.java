@@ -66,6 +66,6 @@ public class Get_Id extends BaseURL {
         } catch (Exception e) {
             System.err.println("Oluşan hata: " + e.getMessage());
         }
-    }   // HttpResponseException hatası try-catch ile handle edildi, beklenen 404 hatası alınıyor.
+    }
 }
 

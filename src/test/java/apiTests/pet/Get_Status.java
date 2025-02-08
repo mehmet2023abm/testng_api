@@ -71,6 +71,5 @@ public class Get_Status extends BaseURL {
         // status code
         Assert.assertEquals(response.getStatusCode(), 400, "Status code is not 400");
 
-        // HATA: Swagger dökümanında beklenen 400 kod yerine 200 kod döndürüyor.
     }
 }

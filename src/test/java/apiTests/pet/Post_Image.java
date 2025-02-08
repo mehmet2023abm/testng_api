@@ -34,8 +34,6 @@ public class Post_Image extends BaseURL {
         // status code
         Assert.assertEquals(response.getStatusCode(), 200, "Status code is not 200");
 
-        // ÖNERİ : burada yüklediğimiz resmi GET (ID ile) methodu ile görebilmemiz gerekirdi fakat swagger response body formatı
-        //{ "id": 987654321,"category": {"id": 10009,"name": "string"},"name": "doggie","photoUrls": ["string"], "tags": [{"id": 10007,"name": "string"}],"status": "available"} şeklinde düzenlendiğinden "string" dönüşü veriyor
     }
 
     @Test(groups = "negative")
